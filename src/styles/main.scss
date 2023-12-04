@@ -1,7 +1,18 @@
-@import "utils";
-@import "fonts";
-@import "typography";
-
-body {
-  background: $c-gray;
-}
+@import "./utils/reset";
+@import "./utils/variables";
+@import "./utils/mixin";
+@import "./bloks/page";
+@import "./bloks/header";
+@import "./bloks/contacts-call";
+@import "./bloks/icon";
+@import "./bloks/menu";
+@import "./bloks/top-bar";
+@import "./bloks/nav";
+@import "./bloks/main-content";
+@import "./bloks/section-title";
+@import "./bloks/museum-hours";
+@import "./bloks/now-on-view";
+@import "./bloks/button";
+@import "./bloks/more-to-explore-online";
+@import "./bloks/contact-us";
+@import "./bloks/footer";
