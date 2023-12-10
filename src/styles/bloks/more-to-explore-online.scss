@@ -11,7 +11,6 @@
   }
 
   &__grid {
-
     @include contentGrid;
 
     gap: 48px;
@@ -66,7 +65,7 @@
   }
 
   &__description {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 27px;
     color: $color-text-black;
